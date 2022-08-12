@@ -17,3 +17,4 @@ public class Chapter06 {
         System.out.println(bool);
     }
 }
+
