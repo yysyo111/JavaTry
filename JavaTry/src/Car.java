@@ -1,4 +1,4 @@
-//クラス:モノの設計書
+//クラス:モノの設計図
 public class Car {
 	
 //	フィールド(クラスブロック直下で定義された変数) 属性(どんなものか)　フィールドとは、そのクラス(もの)の情報を表す
@@ -8,7 +8,7 @@ public class Car {
 	int speed = 0; //現在の速度
 	boolean right = false; //ライト(true:点灯,false:消灯)
 	
-//	メソッド 機能(何が出来るか)
+//	メソッド 機能(何が出来るか、どんな機能を持っているか)
 //	acceleratorメソッド (現在の速度を1km/h上げる)
 	void accelerator() {
 		speed++;
@@ -35,3 +35,4 @@ public class Car {
 	
 }
 
+//Carというのが車のモノ
