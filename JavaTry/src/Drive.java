@@ -31,7 +31,7 @@ public class Drive {
 		System.out.println("mocoCar.right:" + mocoCar.right);
 		
 		System.out.println("<chocoCar>");
-		System.out.println("chocoCar.speed" + chocoCar.speed);
+		System.out.println("chocoCar.speed:" + chocoCar.speed);
 	}
 }
 
