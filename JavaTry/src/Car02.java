@@ -26,10 +26,10 @@ public class Car02 {
 		this();
 		System.out.println("コンストラクタ①(引数あり)---------");
 		this.carModel = carModel; //車種名
-		owner = owner; //オーナー
-		color = color; //色
-		speed = speed; //現在の速度
-		right = right; //ライト(true:点灯,false:消灯)
+		this.owner = owner; //オーナー
+		this.color = color; //色
+		this.speed = speed; //現在の速度
+		this.right = right; //ライト(true:点灯,false:消灯)
 		System.out.println("-------------------------------");
 	}
 	
