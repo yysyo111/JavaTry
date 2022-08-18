@@ -8,6 +8,7 @@ public class HumanNoCapsule {
         this.name = name;
         this.age = age;
     }
+    
     public HumanNoCapsule() {
     	name = "ショウ";
     	age = 23;
