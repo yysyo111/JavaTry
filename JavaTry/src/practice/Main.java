@@ -10,6 +10,12 @@ public class Main {
 		m1.hp =50;
 		m1.suffix = 'A';
 		
+		Cleric c1 = new Cleric();
+		c1.name = "クリス";
+		
+		c1.selfAid();
+		c1.pray(25);
+		
 		Matango m2 = new Matango();
 		m2.hp = 48;
 		m2.suffix = 'B';
