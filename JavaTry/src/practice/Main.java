@@ -13,6 +13,9 @@ public class Main {
 		Cleric c1 = new Cleric();
 		c1.name = "クリス";
 		
+		Dragon d1 = new Dragon();
+		d1.attack("ドラ");
+		
 		c1.selfAid();
 		c1.pray(25);
 		
