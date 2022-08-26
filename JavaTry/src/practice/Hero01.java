@@ -8,4 +8,12 @@ public class Hero01 {
 		System.out.println(this.name + "は" + sword.name + "で攻撃した！");
 		System.out.println("的に５ポイントのダメージを与えた！");
 	}
+	
+	public Hero01(String name) {
+		this.hp = 100;
+		this.name = name;
+	}
+	public Hero01() {
+		this("ダミー");
+	}
 }
