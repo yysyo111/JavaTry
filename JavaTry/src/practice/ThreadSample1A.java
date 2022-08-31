@@ -1,8 +1,8 @@
 package practice;
 public class ThreadSample1A {
   public static void main(String[] args) {
-    Thread th1 = new ThreadA("Thread1");
-    Thread th2 = new ThreadA("Thread2");
+    Thread th1 = new ThreadA("スレッド1");
+    Thread th2 = new ThreadA("スレッド2");
     
     th1.start();
     th2.start();
