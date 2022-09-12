@@ -1,7 +1,7 @@
 package practice;
 
 public class Matango {
-	int hp = 100;
+	int hp;
 	final int LEVEL = 10;
 	char suffix;
 	public void run() {
