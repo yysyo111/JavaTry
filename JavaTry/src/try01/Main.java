@@ -23,5 +23,8 @@ public class Main {
 		m1.run();
 		m2.run();
 		h.run();
+		
+		Cleric c = new Cleric();
+		c.pray(3);
 	}
 }
