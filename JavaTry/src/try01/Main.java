@@ -26,5 +26,6 @@ public class Main {
 		
 		Cleric c = new Cleric();
 		c.pray(3);
+		c.selfAid();
 	}
 }
