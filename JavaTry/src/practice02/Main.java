@@ -11,7 +11,14 @@ public class Main {
 		System.out.println("現在の武器は" + h.sword.name);
 		h.attack();
 		
+		Thief t1 = new Thief("アサカ", 40, 5);
+		System.out.println(t1.name + t1.hp + t1.mp);
 		
+		Thief t2 = new Thief("アサカ", 35);
+		System.out.println(t2.name + t2.hp + t2.mp);
+		
+		Thief t3 = new Thief("アサカ");
+		System.out.println(t3.name + t3.hp + t3.mp);
 		
 		Hero h1 = new Hero();
 		h1.hp = 100;
