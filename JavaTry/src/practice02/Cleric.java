@@ -20,6 +20,7 @@ public class Cleric {
 	public int pray(int sec) {
 		System.out.println(this.name + "は" + sec + "秒間天を祈った");
 		
+//		整数の乱数を生成する
 		int recover = new Random().nextInt(3) + sec;
 		
 		int recoverActual = Math.min(this.MAX_MP - this.mp, recover);

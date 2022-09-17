@@ -2,6 +2,10 @@ package practice02;
 
 public class Main {
 	public static void main(String[] args) {
+		Hero h1;
+		h1 = new Hero();
+		h1.hp = 100;
+		
 		Hero h = new Hero();
 		h.name = "ミナト";
 		h.hp = 100;
