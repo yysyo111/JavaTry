@@ -4,6 +4,10 @@ public class Hero01 {
 	String name = "ミナト";
 	int hp = 100;
 	
+	public Hero01() {
+		System.out.println("Hero01のコンストラクタが作動");
+	}
+	
 	public void attack(Matango m) {
 		System.out.println(this.name + "の攻撃");
 		m.hp -= 5;

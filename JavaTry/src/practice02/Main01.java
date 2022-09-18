@@ -6,5 +6,6 @@ public class Main01 {
 		h.run();
 		SuperHero sh = new SuperHero();
 		sh.run();
+		Weapon w = new Weapon();
 	}
 }
