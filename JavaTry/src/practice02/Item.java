@@ -14,4 +14,7 @@ public class Item {
 		this.price = price;
 	}
 	
+	public int getGamage() {
+		return 10;
+	}
 }

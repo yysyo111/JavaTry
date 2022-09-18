@@ -7,5 +7,6 @@ public class Main01 {
 		SuperHero sh = new SuperHero();
 		sh.run();
 		Weapon w = new Weapon();
+		PoisonMatango pm = new PoisonMatango('A');
 	}
 }
