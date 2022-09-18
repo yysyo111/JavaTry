@@ -2,6 +2,8 @@ package practice02;
 
 public class Main01 {
 	public static void main(String[] args) {
+		Hero01 h = new Hero01();
+		h.run();
 		SuperHero sh = new SuperHero();
 		sh.run();
 	}

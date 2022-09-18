@@ -13,4 +13,13 @@ public class Hero01 {
 	public void run() {
 		System.out.println(this.name + "は逃げ出した");
 	}
+	
+	public final void slip() {
+		this.hp -= 5;
+		System.out.println(this.name + "は、転んだ!");
+		System.out.println("5のダメージ");
+	}
 }
+
+//finalがついてるメソッド,は子クラスでオーバーライド禁止
+//finalがついてるクラスは継承禁止
