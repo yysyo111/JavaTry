@@ -8,5 +8,9 @@ public class Main01 {
 		sh.run();
 		Weapon w = new Weapon();
 		PoisonMatango pm = new PoisonMatango('A');
+		Wizard wd = new Wizard();
+		wd.name = "アサカ";
+		wd.attack(pm);
+		wd.fireball(pm);
 	}
 }
