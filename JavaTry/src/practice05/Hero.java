@@ -1,4 +1,6 @@
-package practice02;
+package practice05;
+
+import practice02.Sword;
 
 public class Hero {
 	private String name;
@@ -17,7 +19,7 @@ public class Hero {
 	public void attack() {
 		System.out.println(this.name + "は攻撃した");
 		System.out.println("敵に5ポイントのダメージを与えた");
-		System.out.println(this.name + "は" + sword.name + "で攻撃した！");
+//		System.out.println(this.name + "は" + sword.name + "で攻撃した！");
 	}
 	public void sleep() {
 		this.hp = 100;
@@ -43,7 +45,3 @@ public class Hero {
 		System.out.println("GAME OVER です");
 	}
 }
-
-//this.name 自分自身のnameフィールド
-//this.hp 自分自身のhpフィールド
-//メソッドにはstaticをつけない
