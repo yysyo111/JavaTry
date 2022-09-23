@@ -13,6 +13,7 @@ public class Hero {
 		} 
 		if (o instanceof Hero) {
 			Hero h = (Hero)o;
+//			名前が等しければ等価
 			if (this.name.equals(h.name)) {
 				return true;
 			}
