@@ -27,7 +27,12 @@ public class Main {
 			System.out.println("違う内容です");
 		}
 	}
-	public void printAnything(Object o) {
-		System.out.println(o.toString());
-	}
+//	public void printAnything(Object o) {
+//		System.out.println(o.toString());
+//	}
 }
+
+//等価(同一の存在であること):「==」の判定
+//指しているものが「完全に同一の存在」であること(つまり同じアドレスを指している)
+//等値(同じ内容であること):「equals」の判定
+//指している2つのものが「同じ内容」であること(同じアドレスを指していなくても良い)
