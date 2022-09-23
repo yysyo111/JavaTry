@@ -9,6 +9,10 @@ public class Main {
 //		System.out.println(h1.money);
 //		h1.money = 300;
 //		System.out.println(h2.money);
+		Hero.setRandomMoney();
+		System.out.println(Hero.money);
+		Hero h1 = new Hero();
+		System.out.println(h1.money);
 	}
 }
 
