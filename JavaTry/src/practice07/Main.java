@@ -10,9 +10,9 @@ public class Main {
 //		h1.money = 300;
 //		System.out.println(h2.money);
 		Hero.setRandomMoney();
-		System.out.println(Hero.money);
+		System.out.println(Hero.money);//ランダムな金額を表示
 		Hero h1 = new Hero();
-		System.out.println(h1.money);
+		System.out.println(h1.money);//同じ金額表示
 	}
 }
 
