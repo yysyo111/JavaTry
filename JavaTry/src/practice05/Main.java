@@ -15,5 +15,8 @@ public class Main {
 		
 		w.setWand(wa);
 		System.out.println(wa.getName() + "の攻撃力は" + wa.getPower() + "です");
+		
+		System.out.println(w.getName() + "のMPは" + w.getMp() + "です");
+		w.setName("");
 	}
 }
