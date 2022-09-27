@@ -9,6 +9,8 @@ public class Main05 {
 //			System.out.println(w + "->");
 //		}
 		String w = s.replaceAll("[beh]", "X");
+		String a = s.replaceAll("[adg]", "Z");
 		System.out.println(w);
+		System.out.println(a);
 	}
 }
