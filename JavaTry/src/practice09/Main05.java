@@ -12,5 +12,6 @@ public class Main05 {
 		String a = s.replaceAll("[adg]", "Z");
 		System.out.println(w);
 		System.out.println(a);
+		
 	}
 }
