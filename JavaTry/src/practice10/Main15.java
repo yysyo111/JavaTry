@@ -15,5 +15,6 @@ public class Main15 {
 		Date future = c.getTime();
 		SimpleDateFormat f = new SimpleDateFormat("西暦yyyy年MM月dd日");
 		System.out.println(f.format(future));
+		
 	}
 }
