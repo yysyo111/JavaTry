@@ -21,7 +21,12 @@ public class Main {
 		final double PI = 3.14;
 		int pie = 5;
 		System.out.println("半径" + pie + "cmの牌の面積は、" + pie * pie * PI);
-		System.out.println(pie * pie * PI);
+//		System.out.println(pie * pie * PI);
+		
+		int triangle = 3 * 5;
+		System.out.println(triangle);
+		
+		
 	}
 }
 
