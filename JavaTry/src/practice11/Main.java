@@ -26,7 +26,11 @@ public class Main {
 		int triangle = 3 * 5;
 		System.out.println(triangle);
 		
-		
+		boolean bool = true;
+		char a = '躯' ;
+		double b = 3.14;
+		long c = 314159265853979L;
+		String attack = "ミナトの攻撃!敵に15ポイントのダメージを与えた";
 	}
 }
 
