@@ -1,7 +1,10 @@
 package practice11;
 
+import java.util.Random;
+
 public class Main08 {
 	 public static void main(String[] args) {
+		 Random rnd = new Random();
 		 int isHungry = 0;
 		 String food = "コメ";
 		 System.out.println("こんにちは");
