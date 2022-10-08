@@ -71,14 +71,5 @@ public class Main29 {
 			System.out.println("不合格");
 		}
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 }
