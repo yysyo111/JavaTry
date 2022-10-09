@@ -2,7 +2,7 @@ package practice11;
 
 public class Main31 {
 	public static void main(String[] args) {
-		String s = "SPAM";
+		String s = "SPAMM";
 		for (int i = 0; i < 10; i++) {
 			System.out.println(s);
 		}
