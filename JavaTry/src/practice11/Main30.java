@@ -72,7 +72,7 @@ public class Main30 {
 		}
 		
 		System.out.println("好きな寿司を入れてください");
-		System.out.println("1:まぐろ 2:えび 3:こはだ 4:あなご 5:いくら");
+		System.out.println("1:まぐろ 2:えび 3:こはだ 4:あなご 5:いくら 6:あじ");
 		
 		int sushi = new java.util.Scanner(System.in).nextInt();
 		
@@ -91,6 +91,9 @@ public class Main30 {
 		    	 break;
 		    case 5:
 		    	 System.out.println( "いくら" );
+		    	 break;
+		    case 6:
+		    	 System.out.println( "あじ" );
 		    	 break;
 		    default:
 		         System.out.println("寿司");
