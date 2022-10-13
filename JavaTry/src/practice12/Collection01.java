@@ -13,6 +13,9 @@ public class Collection01 {
 		}
 		System.out.println(points.size());
 		System.out.println(points.isEmpty());
+		System.out.println(points.remove(1));
+		System.out.println(points.size());
+		System.out.println(points.get(1));
  	}
 }
 
