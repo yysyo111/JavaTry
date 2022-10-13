@@ -11,5 +11,9 @@ public class Collection01 {
 		for (int i : points) {
 			System.out.println(i);
 		}
+		System.out.println(points.size());
+		System.out.println(points.isEmpty());
  	}
 }
+
+//ArrayList<> 変数名 = new ArrayList<>();
