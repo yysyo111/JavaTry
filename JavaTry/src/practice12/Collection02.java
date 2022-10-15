@@ -10,6 +10,7 @@ public class Collection02 {
 		names.add("アサカ");
 		names.add("スガワラ");
 		names.add("タナカ");
+		names.remove(3);
 		Iterator<String> it = names.iterator();
 		while (it.hasNext()) {
 			String e = it.next();
