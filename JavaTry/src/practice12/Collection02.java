@@ -11,6 +11,7 @@ public class Collection02 {
 		names.add("スガワラ");
 		names.add("タナカ");
 		names.remove(3);
+		names.remove(2);
 		Iterator<String> it = names.iterator();
 		while (it.hasNext()) {
 			String e = it.next();
