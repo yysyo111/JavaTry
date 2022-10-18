@@ -21,6 +21,7 @@ public class Main01 {
 		words.add("cat");
 		words.add("wolf");
 		words.add("panda");
+		words.add("elephant");
 		for (String s : words) {
 			System.out.print(s + "→");
 		}
