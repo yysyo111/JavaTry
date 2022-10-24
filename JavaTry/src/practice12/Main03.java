@@ -9,6 +9,7 @@ public class Main03 {
 		prefs.put("京都府", 255);
 		prefs.put("東京都", 1261);
 		prefs.put("熊本県", 181);
+		prefs.put("兵庫県", 1929);
 		
 		for (String key : prefs.keySet()) {
 			int value = prefs.get(key);
