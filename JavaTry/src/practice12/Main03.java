@@ -12,6 +12,7 @@ public class Main03 {
 		prefs.put("兵庫県", 1929);
 		prefs.put("大阪府", 109);
 		
+		
 		for (String key : prefs.keySet()) {
 			int value = prefs.get(key);
 			System.out.println(key + "の人口は、" + value);
