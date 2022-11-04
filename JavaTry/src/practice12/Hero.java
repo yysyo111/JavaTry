@@ -1,7 +1,6 @@
 package practice12;
 
 public class Hero {
-	
 	private String name;
 	
 	public Hero(String name) {
@@ -11,4 +10,4 @@ public class Hero {
 	public String getName() {
 		return this.name;
 	}
- }
+}
