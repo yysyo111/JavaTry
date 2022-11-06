@@ -17,6 +17,7 @@ public class Main05 {
 			System.out.println(h.getName());
 		}
 		
+		
 		Map<Hero, Integer> heroes01 = new HashMap<Hero, Integer>();
 		heroes01.put(h1, 3);
 		heroes01.put(h2, 17);
